@@ -1,0 +1,67 @@
+{
+  "start":{
+    "text":[
+      "Je bevind je op de DJO LAN-Party",
+      "Je kijkt om je heen",
+      "Waar kijk je naar? Computers, Yoeri of eten?"
+    ],
+    "answers":{
+      "computers":"C-01",
+      "yoeri":"Y-01",
+      "eten":"E-01"
+    },
+    "replies":{
+      "C-01":"Goeie keuze!",
+      "Y-01":"Slecht idee!",
+      "E-01":"Het is Chinees, zoals elke LAN-Party"
+    }
+  },
+  "C-01":{
+    "text":"This is an example question",
+    "answers":{
+      "answer":"gotoID"
+    },
+    "replies":{
+      "gotoID":"feedback line before redirect"
+    }
+  },
+  "Y-01":{
+    "text":[
+      "Je ziet Yoeri slapen op zijn toetsenbord",
+      "Wat doe je? Wakker maken of weglopen?"
+    ],
+    "answers":{
+      "wakker maken":"Y-02",
+      "weglopen":"start"
+    },
+    "replies":{
+      "Y-02":"implementeer verhaallijn hier",
+      "start":"Je besluit iets beters te gaan doen."
+    }
+  },
+  "E-01":{
+    "text":"Er is Bami, Foe yong hai en Nasi, wat pak je?",
+    "answers":{
+      "bami":"E-01",
+      "foe yong hai":"E-01",
+      "nasi":"E-01",
+      "bord":"E-02",
+      "een bord":"E-02"
+    },
+    "replies":{
+      "E-01":"Misschien moet je eerst een bord pakken.",
+      "E-02":"Je pakt een bord."
+    }
+  },
+  "E-02":{
+    "text":"Okee, wat schep je op?",
+    "answers":{
+      "bami":"E-03",
+      "foe yong hai":"E-03",
+      "nasi":"E-03"
+    },
+    "replies":{
+      "E-03":"Eet smakelijk!"
+    }
+  }
+}
