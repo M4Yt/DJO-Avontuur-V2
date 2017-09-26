@@ -17,7 +17,7 @@
     }
   },
   "C-01":{
-    "text":"This is an example question",
+    "text":"This is an example question, type \"answer\" to quit",
     "answers":{
       "answer":"gotoID"
     },
